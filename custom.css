@@ -36,6 +36,7 @@ limitations under the License.
    --scrollbar-border: var(--primary);
    
    --Message: #000;
+   --PopOver: #FFF;
 }
 
 h1, h2, h3, h4 {
@@ -43,7 +44,7 @@ h1, h2, h3, h4 {
 }
 
 .popover_mask {
-   background-color: rgba(0, 0, 0, 0.3);
+   background-color: var(--PopOver);
 }
 
 /* Team Picker */
