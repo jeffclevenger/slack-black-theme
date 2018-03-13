@@ -16,7 +16,7 @@ limitations under the License.
 
 :root {
    /* Modify these to change your theme colors: */
-   --primary: #09F;
+   --primary: #00FF00;
    --text: #DDD;
    --background: #111;
    --background-elevated: #222;
@@ -34,6 +34,8 @@ limitations under the License.
 
    --scrollbar-background: #000;
    --scrollbar-border: var(--primary);
+   
+   --Message: #000;
 }
 
 h1, h2, h3, h4 {
@@ -471,7 +473,7 @@ a:hover{
 .channels_list_holder ul li .mpim_name,
 .channels_list_holder ul li>a:link,
 ts-message a.timestamp{
-  color: #aaa !important;
+  color:  var(--Message) !important;
 }
 #channels_scroller.show_which_channel_is_active ul li.active .im_name{
   color: #fff !important;
@@ -479,12 +481,12 @@ ts-message a.timestamp{
 
 #msgs_div .unread_divider.no_unreads .divider_label
 {
- background: #000 !important;
- color: #aaa !important;
+ background:  var(--background) !important;
+ color: var(--background) !important;
 }
 
 #msgs_div .unread_divider.no_unreads hr{
-  border-top-color: #888 !important;
+  border-top-color:  var(--background) !important;
 }
 
 .flexpane_redesign #member_mentions {
