@@ -985,3 +985,19 @@ ts-jumper, ts-jumper.active {
 ts-jumper ts-jumper-container {
   box-shadow: 0 5px 20px rgba(0,0,0,1);
 }
+
+span.c-message__body,	
+	a.c-message__sender_link,
+	span.c-message_attachment__text,
+	.c-message_attachment__field_value,
+	span.c-message_attachment__media_trigger.c-message_attachment__media_trigger--caption,
+	div.p-message_pane__foreword__description span
+	{
+		color: #ff0000 !important;
+	}
+
+	.c-message_attachment__field_title
+	{
+		font-weight: bold;
+		color: #0000ff !important;
+	}
