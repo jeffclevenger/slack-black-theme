@@ -1008,5 +1008,5 @@ color: var(--background-elevated);
 
 .c-message:hover .c-message__file_meta, .c-message--hover .c-message__file_meta .c-message--focus .c-message__file_meta 
 { 
-color: var(--bacground-bright); 
+color: var(--background-bright); 
 }
