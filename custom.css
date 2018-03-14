@@ -993,11 +993,20 @@ span.c-message__body,
 	span.c-message_attachment__media_trigger.c-message_attachment__media_trigger--caption,
 	div.p-message_pane__foreword__description span
 	{
-		color: #ff0000 !important;
+		color:  var(--primary) !important;
 	}
 
 	.c-message_attachment__field_title
 	{
 		font-weight: bold;
-		color: #0000ff !important;
+		color:  var(--text) !important;
 	}
+.c-message:hover .c-message__body--automated, .c-message--hover .c-message__body--automated .c-message--focus .c-message__body--automated 
+{ 
+color: var(--background-elevated); 
+}
+
+.c-message:hover .c-message__file_meta, .c-message--hover .c-message__file_meta .c-message--focus .c-message__file_meta 
+{ 
+color: var(--bacground-bright); 
+}
